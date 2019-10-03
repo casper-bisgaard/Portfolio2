@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  background-image: linear-gradient(#fc3f44, #661f69);
+}
+
+/*------
+
+article design
+
+-------*/
+.artikleContainer{
+  display: flex;
+  justify-content: center;
+
+
+}
+.greeting {
+  margin-top: 15vh;
+  /*width: 420px; */
+
+}
+.greeting h1 {
+  color: white;
+  font-family: 'B612', sans-serif;
+  font-size: 4.5vh;
+
+}
+
+.greeting p {
+  color: white;
+  font-family: 'B612', sans-serif;
+  margin-top: 6vh;
+  font-size: 2.5vh;
+}
+.greeting a {
+  text-decoration: none;
+}
+
+.artikleContainer img {
+  display: none;
+}
+.space {
+  width: 2vh;
+}
+
+.knap {
+  height: 40px;
+  width: 180px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 12vh;
+  margin-bottom: 22vh;
+  border-radius: 30px;
+  box-shadow: 2px 5px 6px black;
+
+}
+.knap:hover {
+  box-shadow: 0px 0px;
+  box-shadow: 2px 2px 2px black inset;
+}
+
+.knap p {
+  font-family: 'B612', sans-serif;
+  background:linear-gradient(#fc3f44, #661f69);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 9px;
+}
+.container2 {
+  height: 700px;
+}
+
+
+/*--------- projekt side -----*/
+.project-header {
+  display: flex;
+  justify-content:center;
+  margin-top: 30px;
+}
+.project-header h1 {
+  font-family: 'B612', sans-serif;
+  color: white;
+}
+
+
+
+.project{
+  display: flex;
+  justify-content:center;
+  padding-top: 30px;
+}
+
+
+.picture1 {
+
+  height: 250px;
+  width: 300px;
+  margin-right: 20px;
+}
+.picture1 img, .picture2 img  {
+  height: 100%;
+  width: 100%;
+
+}
+.description1 {
+
+  height: 250px;
+  width: 700px;
+}
+.headline{
+  font-family:'B612', sans-serif;
+  color: white;
+  font-size: 25px;
+}
+.pictureText {
+  font-family:'B612', sans-serif;
+  color: white;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+.description2 {
+
+  height: 250px;
+  width: 700px;
+  margin-right: 20px;
+}
+
+.picture2 {
+  height: 250px;
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+/*-------- Om Mig------*/
+
+
+
+
+
+
+@media screen and (min-width: 1000px){
+  .artikleContainer{
+    display: flex;
+    justify-content:space-between;
+
+  }
+  .artikleContainer img {
+    height: 88vh;
+    display: block;
+    margin-top: 5vh
+  }
+
+}

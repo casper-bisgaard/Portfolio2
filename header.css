@@ -1,0 +1,55 @@
+.headmenu {
+  background-color: white;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 2px 28px black;
+}
+.left .icon {
+  display: none;
+}
+
+.headmenu a {
+  display: inline-block;
+  margin: 25px 20px;
+  text-decoration: none;
+  color: #35383d;
+  font-family: Arial;
+}
+
+.headmenu a:hover {
+  color: #7a7777;
+}
+
+.showRight-menu a {
+  display: inline-block;
+  margin: 25px 20px;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+.left, .right {
+  /*Dette er kun til en skærm på */
+  width: 100%;
+}
+.right-menu {
+  display: none;
+}
+.showRight-menu {
+  display: block;
+}
+.showRight-menu a {
+  display: block;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+}
+.left .icon {
+  display: block;
+}
+
+
+}

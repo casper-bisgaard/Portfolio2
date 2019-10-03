@@ -1,0 +1,36 @@
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2b2929;
+  padding: 20px;
+}
+p {
+  font-family:'B612', sans-serif;
+  color: white;
+
+}
+
+.designCredits{
+  height: 200px;
+  width: 300px;
+
+}
+.kontaktInfo {
+  height: 200px;
+  width: 300px;
+
+}
+
+.social {
+  height: 200px;
+  width: 200px;
+
+}
+.social i{
+color: white;
+font-size: 40px;
+margin-right: 10px;
+}
+.social i:hover {
+  color:#4f5250;
+}
